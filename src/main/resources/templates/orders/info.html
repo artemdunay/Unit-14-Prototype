@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Order information</title>
+</head>
+<body>
+<div>
+    <h1>Order information:</h1>
+    <p>ID:</p>
+    <p th:text="${order.getId()}"></p>
+    <p>Processing ID:</p>
+    <p th:text="${order.getProcId()}"></p>
+    <p>File Name:</p>
+    <p th:text="${order.getFileName()}"></p>
+    <p>Client Name:</p>
+    <p th:text="${order.getClientName()}"></p>
+    <p>Date:</p>
+    <p th:text="${order.getDate()}"></p>
+    <p>Format:</p>
+    <p th:text="${order.getFormat()}"></p>
+    <p>Amount:</p>
+    <p th:text="${order.getAmount()}"></p>
+</div>
+</body>
+</html>

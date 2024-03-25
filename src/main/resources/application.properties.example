@@ -1,0 +1,11 @@
+spring.datasource.url=
+spring.datasource.driver-class-name=
+spring.datasource.username=
+spring.datasource.password=
+
+spring.jpa.generate-ddl=true
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.jpa.show-sql=true
+spring.mvc.hiddenmethod.filter.enabled=true
+
+spring.task.scheduling.pool.size = 10
