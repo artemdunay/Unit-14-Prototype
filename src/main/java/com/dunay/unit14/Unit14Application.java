@@ -30,5 +30,4 @@ public class Unit14Application {
         slr.setDefaultLocale(Locale.ENGLISH);
         return slr;
     }
-
 }
